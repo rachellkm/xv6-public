@@ -89,3 +89,11 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+int 
+sys_haw(void)
+{
+  cprintf("hello world this is working\n");
+  return 0;
+
+}
